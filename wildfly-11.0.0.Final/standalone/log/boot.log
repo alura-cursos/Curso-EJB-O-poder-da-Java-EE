@@ -1,0 +1,106 @@
+2018-03-22 12:42:41,199 INFO  [org.jboss.modules] (main) JBoss Modules version 1.6.1.Final
+2018-03-22 12:42:42,303 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.7.SP1
+2018-03-22 12:42:42,548 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0049: WildFly Full 11.0.0.Final (WildFly Core 3.0.8.Final) starting
+2018-03-22 12:42:42,551 DEBUG [org.jboss.as.config] (MSC service thread 1-8) Configured system properties:
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/jboss-modules.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-8-openjdk-amd64/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 1.8.0_151-8u151-b12-0ubuntu0.17.10.2-b12
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_151
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.151-b12
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = /home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final
+	jboss.host.name = andre-inspiron-7460
+	jboss.modules.dir = /home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = andre-inspiron-7460
+	jboss.qualified.host.name = andre-inspiron-7460
+	jboss.server.base.dir = /home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/standalone
+	jboss.server.config.dir = /home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/standalone/configuration
+	jboss.server.data.dir = /home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/standalone/data
+	jboss.server.deploy.dir = /home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/standalone/data/content
+	jboss.server.log.dir = /home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/standalone/log
+	jboss.server.name = andre-inspiron-7460
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/standalone/configuration/logging.properties
+	module.path = /home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/modules
+	org.jboss.boot.log.file = /home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.13.0-37-generic
+	path.separator = :
+	program.name = JBossTools: WildFly 11
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = gnome
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp /home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=/home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = US
+	user.country.format = BR
+	user.dir = /home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/bin
+	user.home = /home/andre
+	user.language = en
+	user.language.format = pt
+	user.name = andre
+	user.timezone = America/Sao_Paulo
+2018-03-22 12:42:42,552 DEBUG [org.jboss.as.config] (MSC service thread 1-8) VM Arguments: -Dprogram.name=JBossTools: WildFly 11 -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/standalone/log/boot.log -Dlogging.configuration=file:/home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/standalone/configuration/logging.properties -Djboss.home.dir=/home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 
+2018-03-22 12:42:47,546 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-03-22 12:42:47,584 INFO  [org.wildfly.security] (ServerService Thread Pool -- 12) ELY00001: WildFly Elytron version 1.1.6.Final
+2018-03-22 12:42:47,608 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 29) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-03-22 12:42:47,649 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found livraria.war in deployment directory. To trigger deployment create a file called livraria.war.dodeploy
+2018-03-22 12:42:47,768 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2018-03-22 12:42:47,802 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.5.4.Final
+2018-03-22 12:42:47,822 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.5.4.Final
+2018-03-22 12:42:47,882 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 5.0.5.Final
