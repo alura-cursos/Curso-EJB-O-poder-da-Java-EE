@@ -13,10 +13,12 @@ public class AutorService {
 	@Inject
 	AutorDao dao;
 	
-	public void adiciona(Autor autor) {
+	public void adiciona(Autor autor) throws LivrariaException {
 		// mais regras aqui
 		
 		dao.salva(autor);
+		
+		throw new LivrariaException();
 	}
 
 	public List<Autor> todosAutores() {

@@ -148,25 +148,30 @@
                         <password>sa</password>
                     </security>
                 </datasource>
-                <datasource jndi-name="java:/livrariaDS" pool-name="livrariaDS" enabled="true" use-java-context="true">
-                    <connection-url>jdbc:mysql://localhost:3306/livraria</connection-url>
-                    <driver>com.mysql</driver>
-                    <pool>
-                        <min-pool-size>10</min-pool-size>
-                        <max-pool-size>100</max-pool-size>
-                        <prefill>true</prefill>
-                    </pool>
-                    <security>
-                        <user-name>andre</user-name>
-                    </security>
-                </datasource>
+		<datasource jndi-name="java:/livrariaDS" pool-name="livrariaDS"
+			enabled="true" use-java-context="true">
+			
+			<connection-url>jdbc:mysql://localhost:3306/livraria</connection-url>
+			<driver>com.mysql</driver>
+			<pool>
+				<min-pool-size>10</min-pool-size>
+				<max-pool-size>100</max-pool-size>
+				<prefill>true</prefill>
+			</pool>
+			<security>
+				<user-name>andre</user-name>
+				<password></password>
+			</security>
+		</datasource>
                 <drivers>
                     <driver name="h2" module="com.h2database.h2">
                         <xa-datasource-class>org.h2.jdbcx.JdbcDataSource</xa-datasource-class>
                     </driver>
-                    <driver name="com.mysql" module="com.mysql">
-                        <xa-datasource-class>com.mysql.jdbc.jdbc2.optional.MysqlXADataSource</xa-datasource-class>
-                    </driver>
+		    <driver name="com.mysql" module="com.mysql">
+			    <xa-datasource-class>
+				    com.mysql.jdbc.jdbc2.optional.MysqlXADataSource
+			    </xa-datasource-class>
+		    </driver>
                 </drivers>
             </datasources>
         </subsystem>
@@ -202,6 +207,9 @@
             <pools>
                 <bean-instance-pools>
                     <strict-max-pool name="slsb-strict-max-pool" derive-size="from-worker-pools" instance-acquisition-timeout="5" instance-acquisition-timeout-unit="MINUTES"/>
+		    <!--
+		    <strict-max-pool name="slsb-strict-max-pool" max-pool-size="1" instance-acquisition-timeout="5" instance-acquisition-timeout-unit="MINUTES"/>
+		    -->
                     <strict-max-pool name="mdb-strict-max-pool" derive-size="from-cpu-count" instance-acquisition-timeout="5" instance-acquisition-timeout-unit="MINUTES"/>
                 </bean-instance-pools>
             </pools>
