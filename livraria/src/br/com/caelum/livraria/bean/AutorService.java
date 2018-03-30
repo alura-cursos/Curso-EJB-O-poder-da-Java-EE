@@ -17,8 +17,6 @@ public class AutorService {
 		// mais regras aqui
 		
 		dao.salva(autor);
-		
-		throw new LivrariaException();
 	}
 
 	public List<Autor> todosAutores() {
