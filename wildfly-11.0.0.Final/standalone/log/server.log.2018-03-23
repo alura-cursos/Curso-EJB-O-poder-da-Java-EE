@@ -1,0 +1,398 @@
+2018-03-23 11:57:29,788 INFO  [org.jboss.modules] (main) JBoss Modules version 1.6.1.Final
+2018-03-23 11:57:30,532 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.7.SP1
+2018-03-23 11:57:30,771 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0049: WildFly Full 11.0.0.Final (WildFly Core 3.0.8.Final) starting
+2018-03-23 11:57:30,776 DEBUG [org.jboss.as.config] (MSC service thread 1-8) Configured system properties:
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/jboss-modules.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-8-openjdk-amd64/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 1.8.0_151-8u151-b12-0ubuntu0.17.10.2-b12
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_151
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.151-b12
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = /home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final
+	jboss.host.name = andre-inspiron-7460
+	jboss.modules.dir = /home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = andre-inspiron-7460
+	jboss.qualified.host.name = andre-inspiron-7460
+	jboss.server.base.dir = /home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/standalone
+	jboss.server.config.dir = /home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/standalone/configuration
+	jboss.server.data.dir = /home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/standalone/data
+	jboss.server.deploy.dir = /home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/standalone/data/content
+	jboss.server.log.dir = /home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/standalone/log
+	jboss.server.name = andre-inspiron-7460
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/standalone/configuration/logging.properties
+	module.path = /home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/modules
+	org.jboss.boot.log.file = /home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.13.0-37-generic
+	path.separator = :
+	program.name = JBossTools: WildFly 11
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = gnome
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp /home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=/home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = US
+	user.country.format = BR
+	user.dir = /home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/bin
+	user.home = /home/andre
+	user.language = en
+	user.language.format = pt
+	user.name = andre
+	user.timezone = America/Sao_Paulo
+2018-03-23 11:57:30,778 DEBUG [org.jboss.as.config] (MSC service thread 1-8) VM Arguments: -Dprogram.name=JBossTools: WildFly 11 -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/standalone/log/boot.log -Dlogging.configuration=file:/home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/standalone/configuration/logging.properties -Djboss.home.dir=/home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 
+2018-03-23 11:57:32,943 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-03-23 11:57:32,975 INFO  [org.wildfly.security] (ServerService Thread Pool -- 29) ELY00001: WildFly Elytron version 1.1.6.Final
+2018-03-23 11:57:32,999 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found livraria.war in deployment directory. To trigger deployment create a file called livraria.war.dodeploy
+2018-03-23 11:57:33,000 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 9) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-03-23 11:57:33,110 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2018-03-23 11:57:33,137 INFO  [org.xnio] (MSC service thread 1-8) XNIO version 3.5.4.Final
+2018-03-23 11:57:33,145 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.5.4.Final
+2018-03-23 11:57:33,190 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 42) WFLYCLINF0001: Activating Infinispan subsystem.
+2018-03-23 11:57:33,200 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 48) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2018-03-23 11:57:33,204 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 50) WFLYNAM0001: Activating Naming Subsystem
+2018-03-23 11:57:33,210 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 58) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2018-03-23 11:57:33,213 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 57) WFLYSEC0002: Activating Security Subsystem
+2018-03-23 11:57:33,231 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 41) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2018-03-23 11:57:33,254 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 43) WFLYRS0016: RESTEasy version 3.0.24.Final
+2018-03-23 11:57:33,275 INFO  [org.jboss.as.naming] (MSC service thread 1-7) WFLYNAM0003: Starting Naming Service
+2018-03-23 11:57:33,276 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2018-03-23 11:57:33,308 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2018-03-23 11:57:33,318 INFO  [org.jboss.as.security] (MSC service thread 1-7) WFLYSEC0001: Current PicketBox version=5.0.2.Final
+2018-03-23 11:57:33,353 INFO  [org.jboss.as.connector] (MSC service thread 1-4) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.6.Final)
+2018-03-23 11:57:33,355 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = h2
+2018-03-23 11:57:33,467 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 60) WFLYWS0002: Activating WebServices Extension
+2018-03-23 11:57:33,566 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 5.0.5.Final
+2018-03-23 11:57:33,688 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0003: Undertow 1.4.18.Final starting
+2018-03-23 11:57:33,905 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2018-03-23 11:57:33,903 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2018-03-23 11:57:34,042 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0014: Creating file handler for path '/home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-03-23 11:57:34,056 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0012: Started server default-server.
+2018-03-23 11:57:34,058 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0018: Host default-host starting
+2018-03-23 11:57:34,126 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0493: EJB subsystem suspension complete
+2018-03-23 11:57:34,189 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2018-03-23 11:57:34,309 INFO  [org.jboss.as.patching] (MSC service thread 1-7) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2018-03-23 11:57:34,386 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2018-03-23 11:57:34,403 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-8) WFLYDM0111: Keystore /home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2018-03-23 11:57:34,430 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "livraria.war" (runtime-name: "livraria.war")
+2018-03-23 11:57:34,430 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) WFLYDS0013: Started FileSystemDeploymentService for directory /home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/standalone/deployments
+2018-03-23 11:57:34,673 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2018-03-23 11:57:34,873 INFO  [org.jboss.ws.common.management] (MSC service thread 1-6) JBWS022052: Starting JBossWS 5.1.9.Final (Apache CXF 3.1.12) 
+2018-03-23 11:57:35,560 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment livraria.war
+2018-03-23 11:57:35,626 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-3) HV000001: Hibernate Validator 5.3.5.Final
+2018-03-23 11:57:35,768 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'LivroDao' in deployment unit 'deployment "livraria.war"' are as follows:
+
+	java:global/livraria/LivroDao!br.com.caelum.livraria.dao.LivroDao
+	java:app/livraria/LivroDao!br.com.caelum.livraria.dao.LivroDao
+	java:module/LivroDao!br.com.caelum.livraria.dao.LivroDao
+	java:global/livraria/LivroDao
+	java:app/livraria/LivroDao
+	java:module/LivroDao
+
+2018-03-23 11:57:35,769 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'Banco' in deployment unit 'deployment "livraria.war"' are as follows:
+
+	java:global/livraria/Banco!br.com.caelum.livraria.dao.Banco
+	java:app/livraria/Banco!br.com.caelum.livraria.dao.Banco
+	java:module/Banco!br.com.caelum.livraria.dao.Banco
+	java:global/livraria/Banco
+	java:app/livraria/Banco
+	java:module/Banco
+
+2018-03-23 11:57:35,770 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'AutorDao' in deployment unit 'deployment "livraria.war"' are as follows:
+
+	java:global/livraria/AutorDao!br.com.caelum.livraria.dao.AutorDao
+	java:app/livraria/AutorDao!br.com.caelum.livraria.dao.AutorDao
+	java:module/AutorDao!br.com.caelum.livraria.dao.AutorDao
+	java:global/livraria/AutorDao
+	java:app/livraria/AutorDao
+	java:module/AutorDao
+
+2018-03-23 11:57:35,770 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'UsuarioDao' in deployment unit 'deployment "livraria.war"' are as follows:
+
+	java:global/livraria/UsuarioDao!br.com.caelum.livraria.dao.UsuarioDao
+	java:app/livraria/UsuarioDao!br.com.caelum.livraria.dao.UsuarioDao
+	java:module/UsuarioDao!br.com.caelum.livraria.dao.UsuarioDao
+	java:global/livraria/UsuarioDao
+	java:app/livraria/UsuarioDao
+	java:module/UsuarioDao
+
+2018-03-23 11:57:36,075 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-5) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.8.Final
+2018-03-23 11:57:36,366 INFO  [org.jboss.weld.Version] (MSC service thread 1-2) WELD-000900: 2.4.3 (Final)
+2018-03-23 11:57:36,596 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 62) WFLYCLINF0002: Started client-mappings cache from ejb container
+2018-03-23 11:57:37,250 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 65) Initializing Mojarra 2.2.13.SP4  for context '/livraria'
+2018-03-23 11:57:38,193 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 65) Running on PrimeFaces 4.0
+2018-03-23 11:57:38,224 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 65) WFLYUT0021: Registered web context: '/livraria' for server 'default-server'
+2018-03-23 11:57:38,248 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 37) WFLYSRV0010: Deployed "livraria.war" (runtime-name : "livraria.war")
+2018-03-23 11:57:38,335 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2018-03-23 11:57:38,342 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2018-03-23 11:57:38,343 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2018-03-23 11:57:38,343 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 11.0.0.Final (WildFly Core 3.0.8.Final) started in 9348ms - Started 491 of 717 services (353 services are lazy, passive or on-demand)
+2018-03-23 11:58:06,169 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2018-03-23 11:58:06,193 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 65) WFLYUT0022: Unregistered web context: '/livraria' from server 'default-server'
+2018-03-23 11:58:06,256 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 71) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2018-03-23 11:58:06,267 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0019: Host default-host stopping
+2018-03-23 11:58:06,277 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2018-03-23 11:58:06,285 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2018-03-23 11:58:06,301 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0008: Undertow HTTP listener default suspending
+2018-03-23 11:58:06,306 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0008: Undertow HTTPS listener https suspending
+2018-03-23 11:58:06,307 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment livraria.war (runtime-name: livraria.war) in 128ms
+2018-03-23 11:58:06,308 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2018-03-23 11:58:06,308 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2018-03-23 11:58:06,309 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0004: Undertow 1.4.18.Final stopping
+2018-03-23 11:58:06,318 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0050: WildFly Full 11.0.0.Final (WildFly Core 3.0.8.Final) stopped in 115ms
+2018-03-23 12:25:02,496 INFO  [org.jboss.modules] (main) JBoss Modules version 1.6.1.Final
+2018-03-23 12:25:03,087 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.7.SP1
+2018-03-23 12:25:03,230 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Full 11.0.0.Final (WildFly Core 3.0.8.Final) starting
+2018-03-23 12:25:03,231 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/jboss-modules.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-8-openjdk-amd64/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 1.8.0_151-8u151-b12-0ubuntu0.17.10.2-b12
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_151
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.151-b12
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = /home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final
+	jboss.host.name = andre-inspiron-7460
+	jboss.modules.dir = /home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = andre-inspiron-7460
+	jboss.qualified.host.name = andre-inspiron-7460
+	jboss.server.base.dir = /home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/standalone
+	jboss.server.config.dir = /home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/standalone/configuration
+	jboss.server.data.dir = /home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/standalone/data
+	jboss.server.deploy.dir = /home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/standalone/data/content
+	jboss.server.log.dir = /home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/standalone/log
+	jboss.server.name = andre-inspiron-7460
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/standalone/configuration/logging.properties
+	module.path = /home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/modules
+	org.jboss.boot.log.file = /home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.13.0-37-generic
+	path.separator = :
+	program.name = JBossTools: WildFly 11
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = gnome
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp /home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=/home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = US
+	user.country.format = BR
+	user.dir = /home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/bin
+	user.home = /home/andre
+	user.language = en
+	user.language.format = pt
+	user.name = andre
+	user.timezone = America/Sao_Paulo
+2018-03-23 12:25:03,232 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -Dprogram.name=JBossTools: WildFly 11 -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/standalone/log/boot.log -Dlogging.configuration=file:/home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/standalone/configuration/logging.properties -Djboss.home.dir=/home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 
+2018-03-23 12:25:05,716 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-03-23 12:25:05,745 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found livraria.war in deployment directory. To trigger deployment create a file called livraria.war.dodeploy
+2018-03-23 12:25:05,746 INFO  [org.wildfly.security] (ServerService Thread Pool -- 21) ELY00001: WildFly Elytron version 1.1.6.Final
+2018-03-23 12:25:05,785 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 29) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-03-23 12:25:05,880 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2018-03-23 12:25:05,914 INFO  [org.xnio] (MSC service thread 1-4) XNIO version 3.5.4.Final
+2018-03-23 12:25:05,919 INFO  [org.xnio.nio] (MSC service thread 1-4) XNIO NIO Implementation Version 3.5.4.Final
+2018-03-23 12:25:05,954 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 5.0.5.Final
+2018-03-23 12:25:05,993 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 42) WFLYCLINF0001: Activating Infinispan subsystem.
+2018-03-23 12:25:05,998 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 48) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2018-03-23 12:25:06,014 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 41) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2018-03-23 12:25:06,033 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 58) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2018-03-23 12:25:06,041 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 57) WFLYSEC0002: Activating Security Subsystem
+2018-03-23 12:25:06,045 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 50) WFLYNAM0001: Activating Naming Subsystem
+2018-03-23 12:25:06,047 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 43) WFLYRS0016: RESTEasy version 3.0.24.Final
+2018-03-23 12:25:06,075 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2018-03-23 12:25:06,163 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 60) WFLYWS0002: Activating WebServices Extension
+2018-03-23 12:25:06,187 INFO  [org.jboss.as.connector] (MSC service thread 1-8) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.6.Final)
+2018-03-23 12:25:06,218 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = h2
+2018-03-23 12:25:06,243 INFO  [org.jboss.as.naming] (MSC service thread 1-8) WFLYNAM0003: Starting Naming Service
+2018-03-23 12:25:06,249 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-5) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2018-03-23 12:25:06,279 INFO  [org.jboss.as.security] (MSC service thread 1-7) WFLYSEC0001: Current PicketBox version=5.0.2.Final
+2018-03-23 12:25:06,404 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0003: Undertow 1.4.18.Final starting
+2018-03-23 12:25:06,685 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2018-03-23 12:25:06,694 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2018-03-23 12:25:06,746 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0012: Started server default-server.
+2018-03-23 12:25:06,748 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0018: Host default-host starting
+2018-03-23 12:25:06,756 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0014: Creating file handler for path '/home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-03-23 12:25:06,871 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2018-03-23 12:25:06,886 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0493: EJB subsystem suspension complete
+2018-03-23 12:25:07,047 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2018-03-23 12:25:07,125 INFO  [org.jboss.as.patching] (MSC service thread 1-5) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2018-03-23 12:25:07,150 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-2) WFLYDM0111: Keystore /home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2018-03-23 12:25:07,163 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) WFLYDS0013: Started FileSystemDeploymentService for directory /home/andre/Desktop/AluraSteps/Curso-EJB-O-poder-da-Java-EE/wildfly-11.0.0.Final/standalone/deployments
+2018-03-23 12:25:07,188 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "livraria.war" (runtime-name: "livraria.war")
+2018-03-23 12:25:07,405 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2018-03-23 12:25:07,580 INFO  [org.jboss.ws.common.management] (MSC service thread 1-8) JBWS022052: Starting JBossWS 5.1.9.Final (Apache CXF 3.1.12) 
+2018-03-23 12:25:08,152 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment livraria.war
+2018-03-23 12:25:08,206 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-6) HV000001: Hibernate Validator 5.3.5.Final
+2018-03-23 12:25:08,297 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'LivroDao' in deployment unit 'deployment "livraria.war"' are as follows:
+
+	java:global/livraria/LivroDao!br.com.caelum.livraria.dao.LivroDao
+	java:app/livraria/LivroDao!br.com.caelum.livraria.dao.LivroDao
+	java:module/LivroDao!br.com.caelum.livraria.dao.LivroDao
+	java:global/livraria/LivroDao
+	java:app/livraria/LivroDao
+	java:module/LivroDao
+
+2018-03-23 12:25:08,298 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'Banco' in deployment unit 'deployment "livraria.war"' are as follows:
+
+	java:global/livraria/Banco!br.com.caelum.livraria.dao.Banco
+	java:app/livraria/Banco!br.com.caelum.livraria.dao.Banco
+	java:module/Banco!br.com.caelum.livraria.dao.Banco
+	java:global/livraria/Banco
+	java:app/livraria/Banco
+	java:module/Banco
+
+2018-03-23 12:25:08,298 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'AutorDao' in deployment unit 'deployment "livraria.war"' are as follows:
+
+	java:global/livraria/AutorDao!br.com.caelum.livraria.dao.AutorDao
+	java:app/livraria/AutorDao!br.com.caelum.livraria.dao.AutorDao
+	java:module/AutorDao!br.com.caelum.livraria.dao.AutorDao
+	java:global/livraria/AutorDao
+	java:app/livraria/AutorDao
+	java:module/AutorDao
+
+2018-03-23 12:25:08,298 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'UsuarioDao' in deployment unit 'deployment "livraria.war"' are as follows:
+
+	java:global/livraria/UsuarioDao!br.com.caelum.livraria.dao.UsuarioDao
+	java:app/livraria/UsuarioDao!br.com.caelum.livraria.dao.UsuarioDao
+	java:module/UsuarioDao!br.com.caelum.livraria.dao.UsuarioDao
+	java:global/livraria/UsuarioDao
+	java:app/livraria/UsuarioDao
+	java:module/UsuarioDao
+
+2018-03-23 12:25:08,786 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-8) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.8.Final
+2018-03-23 12:25:09,043 INFO  [org.jboss.weld.Version] (MSC service thread 1-7) WELD-000900: 2.4.3 (Final)
+2018-03-23 12:25:09,426 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 62) WFLYCLINF0002: Started client-mappings cache from ejb container
+2018-03-23 12:25:10,166 INFO  [stdout] (ServerService Thread Pool -- 62) [INFO] O Banco acabou de ser criado.
+2018-03-23 12:25:10,276 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 62) Initializing Mojarra 2.2.13.SP4  for context '/livraria'
+2018-03-23 12:25:11,306 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 62) Running on PrimeFaces 4.0
+2018-03-23 12:25:11,343 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 62) WFLYUT0021: Registered web context: '/livraria' for server 'default-server'
+2018-03-23 12:25:11,387 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 37) WFLYSRV0010: Deployed "livraria.war" (runtime-name : "livraria.war")
+2018-03-23 12:25:11,518 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2018-03-23 12:25:11,520 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2018-03-23 12:25:11,520 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2018-03-23 12:25:11,520 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 11.0.0.Final (WildFly Core 3.0.8.Final) started in 9528ms - Started 491 of 717 services (353 services are lazy, passive or on-demand)
+2018-03-23 12:25:24,881 INFO  [stdout] (default task-4) [INFO] AutorDao foi criado.
+2018-03-23 12:25:29,651 INFO  [stdout] (default task-7) [INFO] Salvando o Autor x
+2018-03-23 12:25:29,652 INFO  [stdout] (default task-7) [INFO] Salvou o Autor x
+2018-03-23 12:25:41,103 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2018-03-23 12:25:41,130 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 67) WFLYUT0022: Unregistered web context: '/livraria' from server 'default-server'
+2018-03-23 12:25:41,177 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0019: Host default-host stopping
+2018-03-23 12:25:41,183 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 71) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2018-03-23 12:25:41,198 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2018-03-23 12:25:41,206 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2018-03-23 12:25:41,222 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0008: Undertow HTTPS listener https suspending
+2018-03-23 12:25:41,222 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0008: Undertow HTTP listener default suspending
+2018-03-23 12:25:41,223 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2018-03-23 12:25:41,223 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2018-03-23 12:25:41,227 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment livraria.war (runtime-name: livraria.war) in 117ms
+2018-03-23 12:25:41,228 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0004: Undertow 1.4.18.Final stopping
+2018-03-23 12:25:41,241 INFO  [org.jboss.as] (MSC service thread 1-4) WFLYSRV0050: WildFly Full 11.0.0.Final (WildFly Core 3.0.8.Final) stopped in 124ms
