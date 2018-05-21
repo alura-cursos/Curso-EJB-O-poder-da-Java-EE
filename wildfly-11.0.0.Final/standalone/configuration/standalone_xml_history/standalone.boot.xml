@@ -157,7 +157,7 @@
                         <prefill>true</prefill>
                     </pool>
                     <security>
-                        <user-name>andre</user-name>
+                        <user-name>root</user-name>
                     </security>
                 </datasource>
                 <drivers>
